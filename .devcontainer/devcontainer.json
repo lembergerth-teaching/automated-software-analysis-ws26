@@ -1,6 +1,5 @@
 {
-  "dockerFile": "Dockerfile",
-  "name": "Custom Dev Environment",
+  "image": "ghcr.io/lembergerth-teaching/automated-software-analysis-ws26:latest",
   "customizations": {
     "vscode": {
       "extensions": [
