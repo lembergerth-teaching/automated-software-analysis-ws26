@@ -1,4 +1,17 @@
 {
   "dockerFile": "Dockerfile",
-  "name": "Custom Dev Environment"
+  "name": "Custom Dev Environment",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter",
+        "ms-vscode.cpptools"
+      ],
+      "settings": {
+        "python.defaultInterpreterPath": "/opt/jupyter/bin/python",
+        "jupyter.notebookFileRoot": "${fileDirname}"
+      }
+    }
+  }
 }
