@@ -1,5 +1,5 @@
 {
-  "image": "ghcr.io/lembergerth-teaching/automated-software-analysis-ws26/codespace:latest",
+  "image": "ghcr.io/lembergerth-teaching/automated-software-analysis-ws26/codeql:latest",
   "customizations": {
     "vscode": {
       "extensions": [
